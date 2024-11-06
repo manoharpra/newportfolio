@@ -22,7 +22,7 @@ body{
 #header{
     width: 100%;
     height: 100vh;
-    background-image: url(pic/manohar5.png);
+    background-image: url(manohar5.png);
     background-size: cover;
     
 }
@@ -413,7 +413,7 @@ nav .bars , nav .xmark{
 }
 @media only screen and (max-width:600px){
     #header{
-        background-image: url(pic/manohar4.webp);
+        background-image: url(manohar4.webp);
         background-position: center;
     }
     .header-text{
