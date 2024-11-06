@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="Favicon icon" href="pic/r pic.png">
+    <script src="script.js" defer>  </script>
+</head>
+<body id="canvas">
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="pic/logo5.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <img src="pic/xmark.svg" class="xmark" onclick="closemenu()">
+                </ul>
+                <img src="pic/bars.svg" class="bars" onclick="openmenu()">
+            </nav>
+            <div class="header-text">
+                <p>Front-End Doveloper </p>
+                
+                <h1>Hi, I'm  <img src="pic/3D Text-2.gif" class="gif"> <br> Prajapati <br> From India </h1>
+            </div>
+        <marquee behavior="" direction="right to left"> <img src="pic/3D Text1.gif" class="mr"></marquee>
+          </div>  
+        </div>
+    <!-- ---------------about--------------------- -->
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="pic/manohar2.png" >
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title">About Me</h1>
+                        <p>I am a creative and motivated individual with a passion for front-end development. Despite my non-CS background, I have acquired solid
+                            skills in C language, JavaScript, CSS, and HTML. Eager to learn and contribute to creating delightful user experiences on the web.
+                            A dedicated and skilled Front End Developer seeking to leverage my experience and expertise to contribute to the success of Blue Iris
+                            Software Trading LLC.
+                            </p>
+                            <div class="tab-titles">
+                           
+                            <p class="tab-links active-link"onclick="opentab('Skills')">Skills</p>
+                            <p class="tab-links"onclick="opentab('Experience')">Experience</p>
+                            <p class="tab-links"onclick="opentab('Education')">Education</p>
+                         </div>
+                    
+                         <div class="tab-contents active-tab" id="Skills">
+                         <ul>
+                            <li><span>UI/UX</span> <br> Designing Web/App Interfaces</li>
+                            <li><span>Web Dovelopment</span> <br> Web App Dovelopment</li>
+                            <li><span>App Dovelopment</span> <br> Building android/ios Apps</li>
+                        </ul>
+                     </div>
+                         <div class="tab-contents" id="Experience">
+                         <ul>
+                            <li><span>Jan 2023 -- Present
+                            </span> <br> ~ Design, develop, test and deploy design features in a timely manner.
+                           <br>~ Maintain brand consistency throughout the design process.Apply engineering best practices.
+                           <br>~ Work to solve complex challenges with the utilization of modern web application development processes and standard methodologies.
+                        </li>
+                            <li><span>July 2021 -- Dec 2023</span> <br>~ Worked with teams to solve issues and find and implement efficiencies.
+                               <br> ~ Collaborated with product managers to design cutting edge features.
+                               <br> ~ Worked to create tools that enhanced user interaction in any browser</li>
+                            <!-- <li><span>App Dovelopment</span> <br> Building android/ios Apps</li> -->
+                        </ul>
+                     </div>
+                         <div class="tab-contents" id="Education">
+                         <ul>
+                            <li><span>Diploma of Information Technology</span> <br> 
+                                Gurukul Universal,Sant Kabir Nagar(U.P.) <br>
+                                Certificate issue date : 5 July 2021
+                                </li>
+    
+                            <li><span>Bachelor of Arts in Education and Sociology</span> 
+                                <br>Siddharth University, Kapilvastu, Siddharth Nagar (U.P.) <br>
+                                Graduated: May 2019
+                            </li>
+                            <li><span>Intermediate (Math , Science , English)</span>
+                            <br> Government Higher Secondary school (U.P.) <br>
+                            Year : April 2016</li>
+                            <!-- <li><span>App Dovelopment</span> <br> Building android/ios Apps</li> -->
+                        </ul>
+                     </div>
+                   </div>
+                </div>
+            </div>
+        </div>
+    
+        <!-- ---------------------------Services-------------------------------- -->
+        <div id="services">
+            <div class="container">
+                <h1 class="sub-title">My services</h1>
+                <div class="services-list">
+                    <div>
+                        <img src="pic/code.svg" class="code">
+                      <h2>Web Design</h2>
+                       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                         Animi modi ducimus voluptatum 
+                        dolorum nam praesentium aliquam. Vero doloremque iure eligendi?</p>
+                     <a href="#">Learn More</a>   
+                   </div>
+
+                   <div>
+                    <img src="pic/crop.svg" class="crop">
+                    <h2>UI/UX Design</h2>
+                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                       Animi modi ducimus voluptatum 
+                      dolorum nam praesentium aliquam. Vero doloremque iure eligendi?</p>
+                   <a href="#">Learn More</a>   
+                 </div>
+
+                 <div>
+                    <img src="pic/app-store.svg" class="store">
+                    <h2>App Design</h2>
+                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                       Animi modi ducimus voluptatum 
+                      dolorum nam praesentium aliquam. Vero doloremque iure eligendi?</p>
+                   <a href="#">Learn More</a>   
+                 </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- -----------------------Portfolio------------------------ -->
+        <div id="portfolio">
+            <div class="container">
+                <h1 class="sub-titles1"> My Work</h1>
+                <div class="work-list">
+                    <div class="work">
+                        <img src="pic/work1.jpg" class="work1">
+                        <div class="layer">
+                            <h3>Online Shopping App</h3>
+                            <p>The app connects you to the talented people around 
+                                the world. <br>Download it from play store.
+                            </p>
+                            <img src="pic/searchengin.svg" class="search">
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="pic/work2.jpg" class="work2">
+                        <div class="layer">
+                            <h3>Online Shopping App</h3>
+                            <p>The app connects you to the talented people around 
+                                the world. <br>Download it from play store.
+                            </p>
+                            <img src="pic/searchengin.svg" class="search">
+                                   </div>
+                                 </div>
+                         <div class="work">
+                         <img src="pic/Desk -2.jpg" alt="work3">
+                         <div class="layer">
+                            <h3>Online Shopping App</h3>
+                            <p>The app connects you to the talented people around 
+                                the world. <br>Download it from play store.
+                            </p>
+                            <img src="pic/searchengin.svg" class="search">
+                        </div>
+                    </div> 
+                </div>
+                <a href="#" class="btn">See more</a>
+            </div>
+        </div>
+<!-- ------------------------contact-------------------------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p> 
+                    <a href="mailto:Manohar553210@gmail.com" ><img src="pic/email.png" class="pic">:- Manohar553210@gmail.com</a> <br>
+                    <a href="https://wa.me/971553210158?text=Hello%20sir!"> <img src="pic/whatsapp.png" class="pic"> :- +971553210158</a> 
+                 </p>
+                <div class="social-icon">
+                    <a href="http://facebook.com/" > <img src="pic/facebook.svg" class="icon"> </a>
+                    <a href="http://twitter.com/" ><img src="pic/x-twitter.svg" class="icon" ></a>
+                    <a href="http://instagram.com/" ><img src="pic/instagram.svg" class="icon1"></a>
+                    <a href="http://linkdin.com/"><img src="pic/linkedin.svg" class="icon2"></a>
+                </div>
+                <a href="pic/Manohar CV.pdf" download="CV" class="btn btn1">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="copyright">
+            <p>Copyright &#169; 2024 BY Manohar </p>
+        </div>
+    </footer>
+</div>
+    
+    
+</body>
+</html>
