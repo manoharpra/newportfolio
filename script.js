@@ -28,7 +28,7 @@ var tablinks = document.getElementsByClassName("tab-links")
 
 
     // Input your web app URL script
-    const scriptURL =   'https://script.google.com/macros/s/AKfycbxTxOhie3MDpDH7U5NTrJ9IGEaItn9phgbEt0C0rDGVUPj2Azp5x8jpzA1qTwhQAqo/exec'
+    const scriptURL =   'https://script.google.com/macros/s/AKfycbyWTpt4ZVOmhewmTvmhL7-zz7kT0yrHJvhu-9G_6ayr2oPpqOLnm1xfArFOSV9yJ5yw/exec'
     const form = document.forms['submit-to-google-sheet']
     const msg = document.getElementById("msg")
   
