@@ -22,7 +22,7 @@ body{
 #header{
     width: 100%;
     height: 130vh;
-    background-image: url(pic/mk.jpg);
+    background-image: url(mk.jpg);
     background-position: 7cap;
     image-resolution: 40800px; 
     
@@ -425,7 +425,7 @@ nav .bars , nav .xmark{
 }
 @media only screen and (max-width:600px){
     #header{
-        background-image: url(pic/mk.jpg);
+        background-image: url(mk.jpg);
         background-position: -30cap;
         
     }
