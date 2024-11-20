@@ -20,12 +20,8 @@ body{
     color: #ffffff;
   }
 #header{
-    width: 100%;
-    height: 130vh;
     background-image: url(mk.jpg);
-    background-position: 7cap;
-    image-resolution: 40800px; 
-    
+    background-size: 50% auto; /* Set a specific width and height */
 }
 .header-text{
     font-weight: 600;
@@ -426,7 +422,8 @@ nav .bars , nav .xmark{
 @media only screen and (max-width:600px){
     #header{
         background-image: url(mk.jpg);
-        background-position: -30cap;
+        background-size: 150% auto; /* Set a specific width and height */
+        background-repeat: no-repeat; 
         
     }
     .header-text{
