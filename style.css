@@ -125,8 +125,9 @@ nav ul li a:hover::after{
 
 }
 .about-col-1 img{
-    width: 30vw;
-    border-radius: 15px;
+    width: 100%;
+    hight: auto;
+    border-radius: 5px;
 
 }
 .about-col-2 {
