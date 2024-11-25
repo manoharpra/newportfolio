@@ -20,7 +20,7 @@ body{
     color: #ffffff;
   }
 #header{
-    background-image: url(photo_Fbgh.png);
+    background-image: url(picM.svg);
     background-size: 100% auto; /* Set a specific width and height */
 }
 .header-text{
@@ -421,7 +421,7 @@ nav .bars , nav .xmark{
 }
 @media only screen and (max-width:600px){
     #header{
-        background-image: url(photoMbgn.png);
+        background-image: url(picM.svg);
         background-size: 100% auto; /* Set a specific width and height */
         background-repeat: no-repeat; 
         
