@@ -126,8 +126,7 @@ nav ul li a:hover::after{
 }
 .about-col-1 img{
     width: 100%;
-    hight: auto;
-    border-radius: 5px;
+    hight: 50%;
 
 }
 .about-col-2 {
@@ -494,7 +493,9 @@ nav .bars , nav .xmark{
     }
     
     .about-col-1 img{
-        width: 48vh;
+        width: 100%;
+        hight:50%;
+        
     }
     .sub-title{
         font-size: 8vw;
