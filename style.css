@@ -126,7 +126,7 @@ nav ul li a:hover::after{
 }
 .about-col-1 img{
     width: 100%;
-    hight: 20vh;
+   height: 80vh;
 
 }
 .about-col-2 {
@@ -494,7 +494,7 @@ nav .bars , nav .xmark{
     
     .about-col-1 img{
         width: 100%;
-        hight:20vh;
+        height: 80vh;
         
     }
     .sub-title{
